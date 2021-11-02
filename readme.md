@@ -13,4 +13,4 @@ Wuhu,i just did it successfully first time!
 ## Error occur in Git
 > error: could not open '.git/rebase-merge/git-rebase-todo': No such file or directory
 > git分支后面出现"|REBASE"
-* `git rebase --abort`将当前进行到一半的rebase取消
+* `git rebase --abort`将当前进行到一半的rebase取消-----[git分支名称后面多出REBASE解决](https://blog.csdn.net/Small_Lee/article/details/82150794)
