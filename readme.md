@@ -11,6 +11,11 @@ Wuhu,i just did it successfully first time!
 * git bash中使用http首次绑定时会需要token验证并报错，随后的输入登录名时，输入**完整GitHub账号"@"之前**的**用户名称**，**登录密码也填token**，而不是登录密码！
 
 ## Error occur in Git
-> error: could not open '.git/rebase-merge/git-rebase-todo': No such file or directory
+``` error: could not open '.git/rebase-merge/git-rebase-todo': No such file or directory```
 > git分支后面出现"|REBASE"
 * `git rebase --abort`将当前进行到一半的rebase取消-----[git分支名称后面多出REBASE解决](https://blog.csdn.net/Small_Lee/article/details/82150794)
+ 
+```fatal: Authentication failed for 'https://github.com/xiayitian1003/Working-Tools.git/'```
+>git push 发现token过期
+>重置登录信息,刷新出登录框,输入更新token有效期
+* [git操作及fatal: Authentication failed for错误解决](https://blog.csdn.net/u011394598/article/details/80256896)
