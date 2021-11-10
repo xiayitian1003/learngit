@@ -17,5 +17,5 @@ Wuhu,i just did it successfully first time!
  
 ```fatal: Authentication failed for 'https://github.com/xiayitian1003/Working-Tools.git/'```
 >git push 发现token过期
->重置登录信息,刷新出登录框,输入更新token有效期
+>重置登录信息,刷新出登录框,输入更新token有效期:头像-->settings-->Developer settings-->Personal acess tokens
 * [git操作及fatal: Authentication failed for错误解决](https://blog.csdn.net/u011394598/article/details/80256896)
