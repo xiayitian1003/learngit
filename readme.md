@@ -19,3 +19,9 @@ Wuhu,i just did it successfully first time!
 >git push 发现token过期
 >重置登录信息,刷新出登录框,输入更新token有效期:头像-->settings-->Developer settings-->Personal acess tokens
 * [git操作及fatal: Authentication failed for错误解决](https://blog.csdn.net/u011394598/article/details/80256896)
+
+>如何修改历史commit的代码更改内容
+* [git rebase修改历史提交内容](https://www.cnblogs.com/oloroso/p/9723783.html)
+
+>如何不commit又保存未完成的更改，从而可以切到其他分支进行开发后又切回来复原现场
+* [git-stash用法小结](https://www.jianshu.com/p/1c7ecc8d3dfb)
