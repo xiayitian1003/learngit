@@ -9,7 +9,8 @@ Wuhu,i just did it successfully first time!
 * [github绑定---将本地git仓库绑定刚创建的github远程仓库](https://blog.csdn.net/yanlaifan/article/details/111366324)
 * [github 配置使用 personal access token 认证](https://segmentfault.com/a/1190000040544939)
 * git bash中使用http首次绑定时会需要token验证并报错，随后的输入登录名时，输入**完整GitHub账号"@"之前**的**用户名称**，**登录密码也填token**，而不是登录密码！
-
+* https默认情况下每次都需要输入git-token，解决办法是：`git config --global credential.helper store`
+> [解决git pull/push每次都需要输入密码问题](https://blog.csdn.net/nongweiyilady/article/details/77772602)
 ## Error occur in Git
 ``` error: could not open '.git/rebase-merge/git-rebase-todo': No such file or directory```
 > git分支后面出现"|REBASE"
