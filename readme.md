@@ -11,6 +11,13 @@ Wuhu,i just did it successfully first time!
 * git bash中使用http首次绑定时会需要token验证并报错，随后的输入登录名时，输入**完整GitHub账号"@"之前**的**用户名称**，**登录密码也填token**，而不是登录密码！
 * https默认情况下每次都需要输入git-token，解决办法是：`git config --global credential.helper store`
 > [解决git pull/push每次都需要输入密码问题](https://blog.csdn.net/nongweiyilady/article/details/77772602)
+* cmd.exe中启动Git-Bash:`start D:\env\git\install\Git\git-bash.exe -c "git config --global gui.encoding utf-8 && java -Dfile.encoding=utf-8 -jar dating-api-1.0.jar"`
+> 参数说明:
+> start git-bash.ext： 在cmd脚本中启动gitbash窗口
+> -c:  设置启动参数， 各个启动参数用&&分隔
+> git config --global gui.encoding utf-8 : 设置编码utf-8
+> [bat脚本启动git bash窗口，并执行命令](https://blog.csdn.net/qq_35206261/article/details/105645526)
+
 ## Error occur in Git
 ``` error: could not open '.git/rebase-merge/git-rebase-todo': No such file or directory```
 > git分支后面出现"|REBASE"
